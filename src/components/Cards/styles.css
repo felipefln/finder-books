@@ -1,0 +1,58 @@
+.cards-not {
+    font-size: 30px;
+    justify-content: center;
+}
+
+.cards {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.card {
+    background: #FFF;
+}
+
+.card-title {
+    width: 95%;
+    padding: 5px 0 0 15px;
+    margin-bottom: 10px;
+    
+}
+
+.card-title h2 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.card-body p {
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 15px;
+}
+
+.title {
+    font-size: 25px;
+    
+}
+
+.card-image {
+    width: 128px;
+    margin: 10px;
+}
+
+.card-image img {
+    max-width: 128px;
+}
+
+.container-card-info {
+    display: flex;
+}
+
+.card-description {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
